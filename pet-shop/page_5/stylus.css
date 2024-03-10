@@ -36,16 +36,12 @@ a{
 .head{
     align-items: center;
     display: flex;
+    max-width: 100%;
 }
 .Destaques{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.nada{
-    display: flex;
-    align-items: center;
 }
 
 .na{
@@ -54,6 +50,10 @@ a{
     border-radius: 10px;
 }
 
+.nada{
+    display: flex;
+    align-items: center;
+}
 .dd{
     align-items: center;
     display: flex;
@@ -77,6 +77,16 @@ a{
     display: block;
 }
 
+.dd{
+    display: block;
+    
+}
+
+.titleContente{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .footer{
     padding: 20px;
 
@@ -91,6 +101,13 @@ a{
     left: 0px;
     display: block;
     margin-bottom: 0px;
+}
+
+.content{
+    text-align: left;
+    margin-top: 10px;
+    padding: 30px;
+    
 }
 
 .text-footer{
